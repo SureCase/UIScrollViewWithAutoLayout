@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3125446A-2825-4E96-9932-E338DDC8F37D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ScrollViewWithAutolayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0A09AE6D-1447-4696-938D-23F89312285F</key>
+		<string>https://github.com/SureCase/UIScrollViewWithAutoLayout</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ScrollViewWithAutolayout.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0A09AE6D-1447-4696-938D-23F89312285F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SureCase/UIScrollViewWithAutoLayout</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0A09AE6D-1447-4696-938D-23F89312285F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0A09AE6D-1447-4696-938D-23F89312285F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIScrollViewWithAutoLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

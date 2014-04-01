@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="SCViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="730"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i90-Mj-Wbh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="730"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E7q-g6-Nt9">
+                                        <rect key="frame" x="20" y="20" width="280" height="700"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="240" translatesAutoresizingMaskIntoConstraints="NO" id="OVp-38-vo7">
+                                                <rect key="frame" x="20" y="20" width="240" height="269"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQR-tN-mte">
+                                                <rect key="frame" x="0.0" y="297" width="280" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="BBK-uZ-6iE"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="240" translatesAutoresizingMaskIntoConstraints="NO" id="BFD-8l-fby">
+                                                <rect key="frame" x="20" y="407" width="240" height="269"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="OVp-38-vo7" secondAttribute="trailing" constant="20" id="F2f-eZ-ZCl"/>
+                                            <constraint firstAttribute="trailing" secondItem="dQR-tN-mte" secondAttribute="trailing" id="HhI-PF-Sbv"/>
+                                            <constraint firstAttribute="height" constant="700" id="JDu-1Z-iTQ"/>
+                                            <constraint firstItem="BFD-8l-fby" firstAttribute="top" secondItem="dQR-tN-mte" secondAttribute="bottom" constant="10" id="Jdp-63-kgh"/>
+                                            <constraint firstItem="dQR-tN-mte" firstAttribute="top" secondItem="OVp-38-vo7" secondAttribute="bottom" constant="8" id="LrZ-jM-vX7"/>
+                                            <constraint firstItem="dQR-tN-mte" firstAttribute="leading" secondItem="E7q-g6-Nt9" secondAttribute="leading" id="T4Y-WX-fp0"/>
+                                            <constraint firstItem="OVp-38-vo7" firstAttribute="top" secondItem="E7q-g6-Nt9" secondAttribute="top" constant="20" id="f6q-Lc-dql"/>
+                                            <constraint firstAttribute="width" constant="280" id="hXC-6A-WAK"/>
+                                            <constraint firstItem="OVp-38-vo7" firstAttribute="leading" secondItem="E7q-g6-Nt9" secondAttribute="leading" constant="20" id="n3O-Uk-ygN"/>
+                                            <constraint firstItem="BFD-8l-fby" firstAttribute="leading" secondItem="E7q-g6-Nt9" secondAttribute="leading" constant="20" id="wff-AB-6sA"/>
+                                            <constraint firstAttribute="trailing" secondItem="BFD-8l-fby" secondAttribute="trailing" constant="20" id="wgx-Lu-8ag"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="E7q-g6-Nt9" secondAttribute="trailing" constant="20" id="LgT-KW-sSg"/>
+                                    <constraint firstItem="E7q-g6-Nt9" firstAttribute="top" secondItem="i90-Mj-Wbh" secondAttribute="top" constant="20" id="Rhj-tu-VVI"/>
+                                    <constraint firstAttribute="bottom" secondItem="E7q-g6-Nt9" secondAttribute="bottom" constant="20" id="WKN-3I-IRu"/>
+                                    <constraint firstItem="E7q-g6-Nt9" firstAttribute="leading" secondItem="i90-Mj-Wbh" secondAttribute="leading" constant="20" id="oHo-5i-ftV"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="i90-Mj-Wbh" secondAttribute="bottom" id="5VS-Uc-P8f"/>
+                            <constraint firstItem="i90-Mj-Wbh" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Ilb-mK-xDz"/>
+                            <constraint firstItem="i90-Mj-Wbh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="qJn-fJ-ZDL"/>
+                            <constraint firstAttribute="trailing" secondItem="i90-Mj-Wbh" secondAttribute="trailing" id="wr0-x8-uxi"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="730"/>
+                    <connections>
+                        <outlet property="scrollView" destination="i90-Mj-Wbh" id="YPY-rB-dYl"/>
+                        <outlet property="scrollingContent" destination="E7q-g6-Nt9" id="hkC-jg-rZr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
